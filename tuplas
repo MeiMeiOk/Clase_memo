@@ -1,0 +1,25 @@
+tupla = ( 12, "Ruffles", False) # tupla empaquetada: esta 
+tupla2 = 30 # lista: esta se puede editar dentro del codigo
+tupla3 = (1, 5, 9, 0)
+
+#una tupla se elimina con la funcion del
+
+mintupla3 = (min(tupla3))
+print("min: ", mintupla3)  #saber el numero minimo de tu tupla
+
+maxtupla3 = (max(tupla3))
+print("max: ", maxtupla3) # saber el numero maximo de tu tupla
+
+sumtupla3 = (sum(tupla3))
+print("suma: ", sumtupla3) #suman todos los valores de tu tupla
+
+print("in false: ", 10 in tupla)
+print("in true: ", 9 in tupla) # busca el valor en tu tupla y si lo encuentra dira True y si no dira False
+
+k=0
+while k<len(tupla):
+    print(tupla[k])
+    k+=1
+
+for t in tupla :
+    print(t)
